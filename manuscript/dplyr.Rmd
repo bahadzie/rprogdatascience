@@ -197,7 +197,7 @@ and the last few rows.
 tail(select(chicago, date, pm25tmean2), 3)
 ```
 
-Columns can be arranged in descending order too by useing the special `desc()` operator.
+Columns can be arranged in descending order too by using the special `desc()` operator.
 
 ```{r}
 chicago <- arrange(chicago, desc(date))
